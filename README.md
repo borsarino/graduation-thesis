@@ -11,4 +11,4 @@ gemini-1.5-flash を用いたトリプル生成のファインチューニング
 下田真生
 
 論文ファイル  
-(./大学卒論 2025.2.26.pdf)
+./graduation_thesis.pdf
