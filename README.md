@@ -13,8 +13,8 @@ gemini-1.5-flash を用いたトリプル生成のファインチューニング
 論文ファイル  
 [PDFはこちら](./graduation_thesis.pdf)
 
-使用した学習データ
+使用した学習データ  
 [input_data](input_data.json)
 
-ファインチューニングのコードと設定
-[tuning_code](tuning_code.ipybn)
+ファインチューニングのコードと設定  
+[tuning_code](tuning_code.ipynb)
