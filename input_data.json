@@ -1,0 +1,621 @@
+[
+    {
+        "prompt":"ヘレンがホームズの家にやってくる", "completion":"kdn:scene_x a kgc:situation ; kgc:haspredicate kdp:come ; kgc:subject kdn:Helen ; kgc:to kdn:house_of_Holmes ."
+    },
+    {
+        "prompt":"ヘレンは怖がっている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beScared ; kgc:subject kdn:Helen ."
+    },
+    {
+        "prompt":"ヘレンは動揺している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beUpset ; kgc:subject kdn:Helen ."
+    },
+    {
+        "prompt":"ヘレンはお金がない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notHave ; kgc:subject kdn:Helen ; kgc:what kdn:money ."
+    },
+    {
+        "prompt":"ヘレンは２ヶ月以内に結婚する", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getMarried ; kgc:subject kdn:Helen ; kgc:when kdn:within_2_months ."
+    },
+    {
+        "prompt":"ヘレンは２ヶ月以内にお金を得る", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:obtain ; kgc:subject kdn:Helen ; kgc:what kdn:money ; kgc:when kdn:within_2_months ."
+    },
+    {
+        "prompt":"ヘレンはホームズにお礼する", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:pay ; kgc:subject kdn:Helen ; kgc:what kdn:money ; kgc:whom kdn:Holmes ; kgc:why kgn:reward_of_request ."
+    },
+    {
+        "prompt":"ヘレンはロイロットと住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Helen ; kgc:where kdn:mansion_of_Roylott ."
+    },
+    {
+        "prompt":"ロイロットは義理の父である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:subject kdn:Roylott ; kgc:whom kdn:father-in-law ."
+    },
+    {
+        "prompt":"ロイロットはインドでヘレンの母と結婚した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getMarried ; kgc:subject kdn:Roylott ; kgc:where kdn:India ; kgc:whom kdn:mother_of_Helen ."
+    },
+
+    {
+        "prompt":"ヘレンとジュリアは姉妹である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:include ; kgc:subject kdn:sister ; kgc:what kdn:Helen ; kgc:what kdn:Julia ."
+    },
+    {
+        "prompt":"ヘレンの母は金持ちだった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:mother_of_Helen ; kgc:what kdn:money ."
+    },
+    {
+        "prompt":"お金は１年１０００ポンドである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:subject kdn:money ; kgc:what kdn:1000_GBP ; kgc:when kdn:every_year ."
+    },
+    {
+        "prompt":"ヘレンの母はクルーで８年前に亡くなった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:die ; kgc:subject kdn:mother_of_Helen ; kgc:when kdn:8_years_ago ; kgc:where kdn:Crewe ."
+    },
+    {
+        "prompt":"ヘレンの母はお金をロイロットに譲った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:give ; kgc:subject kdn:mother_of_Helen ; kgc:what kdn:money ; kgc:whom kdn:Roylott ."
+    },
+    {
+        "prompt":"ロイロットはお金をもらう", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:take ; kgc:subject kdn:Roylott ; kgc:what kdn:money ."
+    },
+    {
+        "prompt":"姉妹はロイロットと住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:sisters ; kgc:where kdn:mansion_of_Roylott ."
+    },
+    {
+        "prompt":"お金は姉妹に分けられる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beDivided ; kgc:subject kdn:money ; kgc:whom kdn:sister ."
+    },
+    {
+        "prompt":"姉妹が結婚する", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getMarried ; kgc:subject kdn:sisters ."
+    },
+    {
+        "prompt":"ロイロットは姉妹とストークモランで住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicatev kdp:live ; kgc:subject kdn:Roylott ; kgc:where kdn:Stoke_Moran ; kgc:whom kgn:sisters ."
+    },
+
+    {
+        "prompt":"ロイロットは村人と喧嘩する", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:fight ; kgc:subject kdn:Roylott ; kgc:when kdn:occasionally ; kgc:whom kdn:villager_of_Stoke_Moran ."
+    },
+    {
+        "prompt":"ロイロットは怒りやすい", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:angry ; kgc:subject kdn:Roylott ; kgc:when kdn:occasionally ."
+    },
+    {
+        "prompt":"ロイロットは力が強い", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:strengthened ; kgc:subject kdn:Roylott ."
+    },
+    {
+        "prompt":"村人はロイロットから逃げる", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:Roylott ; kgc:hasPredicate kdp:escape ; kgc:subject kdn:villager_of_Stoke_Moran ."
+    },
+    {
+        "prompt":"ロイロットはロマと付き合う", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:goOut ; kgc:subject kdn:Roylott ; kgc:whom kdn:Roma ."
+    },
+    {
+        "prompt":"ロマはロイロットの土地で野宿している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Roma ; kgc:where kdn:garden_of_Roylott ."
+    },
+    {
+        "prompt":"ロイロットはインドの動物が好き", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:like ; kgc:subject kdn:Roylott ; kgc:what kdn:animal_of_India ."
+    },
+    {
+        "prompt":"ロイロットはインドから動物を買う", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:buy ; kgc:subject kdn:Roylott ; kgc:what kdn:animal_of_India ."
+    },
+    {
+        "prompt":"ロイロットは豹を飼っている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:include ; kgc:subject kdn:animal_of_India ; kgc:what kdn:leopard ."
+    },
+    {
+        "prompt":"ロイロットはヒヒを飼っている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:include ; kgc:subject kdn:animal_of_India ; kgc:what kdn:baboon ."
+    },
+
+    {
+        "prompt":"屋敷には召使いがいない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notExist ; kgc:subject kdn:housekeeper ; kgc:where kdn:mansion ."
+    },
+    {
+        "prompt":"ジュリアは３０で亡くなった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:die ; kgc:subject kdn:Julia ; kgc:when kdn:30_years_old ."
+    },
+    {
+        "prompt":"母の妹がハロウに住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:sister_of_mother ; kgc:where kdn:Harrow ."
+    },
+    {
+        "prompt":"姉妹はハロウに行った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:sister ; kgc:where kdn:Harrow ."
+    },
+    {
+        "prompt":"姉妹とはヘレンとジュリアである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:include ; kgc:subject kdn:sisters ; kgc:what kdn:Helen ; kgc:what kdn:Julia ."    
+    },
+    {
+        "prompt":"ジュリアは２年前に海軍少佐とハロウで知り合う", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:meet ; kgc:subject kdn:Julia ; kgc:when kdn:2_years_ago ; kgc:where kdn:Harrow ; kgc:whom kdn:lieutenant_commander ."
+    },
+    {
+        "prompt":"ジュリアは海軍少佐と婚約した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:engage ; kgc:subject kdn:Julia ; kgc:whom kdn:lieutenant_commander ."
+    },
+    {
+        "prompt":"ロイロットは婚約に反対しない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notOppose ; kgc:subject kdn:Roylott ; kgc:what kdn:engagement ."
+    },
+    {
+        "prompt":"ジュリアは結婚式の２週間前に亡くなった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:die ; kgc:subject kdn:Julia ; kgc:when kdn:two_weeks_before_the_wedding_ceremony ."
+    },
+    {
+        "prompt":"ジュリアは屋敷の一棟の1階に住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Julia ; kgc:where kdn:first_floor_of_one_building_of_mansion ."
+    },
+
+    {
+        "prompt":"ヘレンは屋敷の一棟の1階に住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Helen ; kgc:where kdn:first_floor_of_one_building_of_mansion ."
+    },
+    {
+        "prompt":"ロイロットは屋敷の一棟の1階に住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Roylott ; kgc:where kdn:first_floor_of_one_building_of_mansion ."
+    },
+    {
+        "prompt":"居間の隣はロイロットの寝室である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:next_to kdn:living_room ; kgc:subject kdn:bedroom_of_Roylott ."
+    },
+    {
+        "prompt":"ロイロットの寝室の隣はジュリアの寝室である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:next_to kdn:bedroom_of_Roylott ; kgc:subject kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの寝室の隣はヘレンの寝室である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:next_to kdn:bedroom_of_Julia ; kgc:subject kdn:bedroom_of_Helen ."
+    },
+    {
+        "prompt":"ロイロットとジュリアの寝室間にドアはない", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:bedroom_of_Roylott ; kgc:hasPredicate kdp:notExist ; kgc:subject kdn:door ; kgc:to kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアとヘレンの寝室間にドアはない", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:bedroom_of_Julia ; kgc:hasPredicate kdp:notExist ; kgc:subject kdn:door ; kgc:to kdn:bedroom_of_Helen ."
+    },
+    {
+        "prompt":"ロイロットの寝室は廊下に繋がる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:door ; kgc:to kdn:corridor ; kgc:where kdn:bedroom_of_Roylott ."
+    },
+    {
+        "prompt":"ジュリアの寝室は廊下に繋がる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:door ; kgc:to kdn:corridor ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンの寝室は廊下に繋がる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:door ; kgc:to kdn:corridor ; kgc:where kdn:bedroom_of_Helen ."
+    },
+
+    {
+        "prompt":"寝室からは庭が見える", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:bedroom ; kgc:hasPredicate kdp:canSee ; kgc:subject kdn:man ; kgc:what kdn:garden ."
+    },
+    {
+        "prompt":"事件当夜，ロイロットは寝室に行った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Roylott ; kgc:to kdn:bedroom ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"ロイロットは寝室で起きていた（ジュリア想像）", "completion":"kdn:scene_x a kgc:Thought ; kgc:hasPredicate kdp:wakeUp ; kgc:infoSource kdn:Julia ; kgc:subject kdn:Roylott ; kgc:where kdn:bedroom ."
+    },
+    {
+        "prompt":"ジュリアはヘレンの寝室に来た", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:come ; kgc:subject kdn:Julia ; kgc:to kdn:bedroom_of_Helen ."
+    },
+    {
+        "prompt":"ジュリアはインドタバコの臭いに悩まされた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:suffer from ; kgc:subject kdn:Julia ; kgc:what kdn:smell_of_Indian_cigarettes ."
+    },
+    {
+        "prompt":"ヘレンはジュリアと結婚式について話す", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:talk ; kgc:subject kdn:Helen ; kgc:what kdn:wedding_ceremony ; kgc:whom kdn:Julia ."
+    },
+    {
+        "prompt":"ジュリアは１１時に寝室に戻る", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Julia ; kgc:to kdn:bedroom ; kgc:when kdn:11_o'clock ."
+    },
+    {
+        "prompt":"ジュリアは口笛を聴く", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:Julia ; kgc:what kdn:whistle ."
+    },
+    {
+        "prompt":"ジュリアは口笛で目を覚ます", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:wakeUp ; kgc:subject kdn:Julia ; kgc:why kdn:whistle ."
+    },
+    {
+        "prompt":"ヘレンは口笛を聴かない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notHear ; kgc:subject kdn:Helen ; kgc:what kdn:whistle ."
+    },
+
+    {
+        "prompt":"ヘレンは安眠している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:sleep ; kgc:how kdn:deeply ; kgc:subject kdn:Helen ."
+    },
+    {
+        "prompt":"口笛はロイロットの寝室 OR 庭 OR ヘレンの寝室から聞こえる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:man ; kgc:what kdn:whistle ; kgc:where kdn:bedroom_of_Roylott_OR_garden_OR_bedroom_of_Helen ."
+    },
+    {
+        "prompt":"口笛はロマが庭で吹いている（ヘレン想像）", "completion":"kdn:scene_x a kgc:Thought ; kgc:hasPredicate kdp:blow ; kgc:infoSource kdn:Helen ; kgc:subject kdn:Roma ; kgc:what kdn:whistle ; kgc:where kdn:garden ."
+    },
+    {
+        "prompt":"ジュリアは部屋をロックした", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:lock ; kgc:subject kdn:Julia ; kgc:what kdn:bedroom ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンは寝ていなかった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notSleep ; kgc:subject kdn:Helen ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，嵐が吹いていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:storm ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアの声が聞こえた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:man ; kgc:what kdn:voice_of_Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンは廊下で口笛を聞いた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:Helen ; kgc:what kdn:whistle ; kgc:when kdn:death_day_of_Julia ; kgc:where kdn:corridor ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンは金属音を聞いた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:Helen ; kgc:what kdn:metallic_sound ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアが鍵を開けた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:open ; kgc:subject kdn:Julia ; kgc:what kdn:key ; kgc:when kdn:death_day_of_Julia ."
+    },
+
+    {
+        "prompt":"事件当夜，ジュリアが部屋から出てきた", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdp:bedroom ; kgc:hasPredicate kdp:exit ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは真っ青だった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:turnPale ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアはふらふらしていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:dizzy ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンはジュリアを支えた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:support ; kgc:subject kdn:Helen ; kgc:what kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは倒れた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:fallDown ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは手足を震わせた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beTremble ; kgc:subject kdn:Julia ; kgc:what kdn:limbs ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアはヘレンにSpeckled Bandと言った（ジュリア主張）", "completion":"kdn:scene_x a kgc:Statement ; kgc:hasPredicate kdp:say ; kgc:infoSource kdn:Julia ; kgc:subject kdn:Julia ; kgc:what kdn:speckled_band ; kgc:when kdn:death_day_of_Julia ; kgc:whom kdn:Helen ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアはロイロットの部屋を指さした", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:point ; kgc:subject kdn:Julia ; kgc:what kdn:bedroom_of_Roylott ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは口が聞けなくなった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:cannotTalk ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンはロイロットを呼んだ", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:call ; kgc:subject kdn:Helen ; kgc:what kdn:Roylott ; kgc:when kdn:death_day_of_Julia ."
+    },
+
+    {
+        "prompt":"事件当夜，ヘレンは廊下でロイロットと会った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:meet ; kgc:subject kdn:Helen ; kgc:when kdn:death_day_of_Julia ; kgc:where kdn:corridor ; kgc:whom kdn:Roylott ."
+    },
+    {
+        "prompt":"事件当夜，ヘレンはジュリアに行った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Helen ; kgc:to kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは気を失っていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:lose ; kgc:subject kdn:Julia ; kgc:what kdn:awareness ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ロイロットはジュリアにブランデーを飲ませた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:give ; kgc:subject kdn:Roylott ; kgc:what kdn:brandy ; kgc:when kdn:death_day_of_Julia ; kgc:whom kdn:Julia ."
+    },
+    {
+        "prompt":"事件当夜，村の医師がジュリアを診た", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:subject kdn:doctor_of_village ; kgc:what kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは死んだ", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:die ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは寝間着を着ていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:wear ; kgc:subject kdn:Julia ; kgc:what kdn:sleepwear ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアはマッチの燃えさしを一本持っていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Julia ; kgc:what kdn:burned_match ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアはマッチの箱を持っていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Julia ; kgc:what kdn:match_box ; kgc:when kdn:death_day_of_Julia ."
+    },
+    {
+        "prompt":"検死官はロイロット博士をずいぶん詳しく取り調べをした", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:subject kdn:coroner ; kgc:whom kdn:Roylott ."
+    },
+
+    {
+        "prompt":"ロイロット博士の日頃の行いが悪い", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Roylott ; kgc:what kdn:bad_act ."
+    },
+    {
+        "prompt":"ジュリアの死因については不明", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notKnown ; kgc:subject kdn:death_cause_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋のドアの内側から鍵がかかっていた（話し手ヘレンと聞き手検死官の会話）", "completion":"kdn:scene_x a kgc:Talk ; kgc:hasProperty kdp:lock ; kgc:infoReceiver kdn:coroner ; kgc:infoSource kdn:Helen ; kgc:subject kdn:insude_of_door_of_bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンはジュリアの部屋のドアの内側から鍵がかかっていたことを証言した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:testify ; kgc:subject kdn:Helen ; kgc:what kdn:that_inside_of_door_of_bedroom_of_Julia_was_locked ."
+    },
+    {
+        "prompt":"ジュリアの部屋の窓には旧式の鎧戸が付いている", "completion":"kdn:scene_x a kgc:situation ; kgc:adjunct kdn:old-fashioned ; kgc:hasPredicate kdp:have ; kgc:subject kdn:window_of_bedroom_of_Julia ; kgc:what kdn:shutter ."
+    },
+    {
+        "prompt":"ジュリアの部屋の窓は夜にはいつも太い鉄の棒をはめて閉ざしている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:close ; kgc:how kdn:with_a_thick_iron_rod ; kgc:subject kdn:window_of_bedroom_of_Julia ; kgc:when kdn:night ."
+    },
+    {
+        "prompt":"ヘレンはジュリアの部屋の四方の壁を全部叩いて調べた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:how kdn:by_hitting ; kgc:subject kdn:Helen ; kgc:what kdn:four_walls_of_bedroom_of_Julia ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋の四方の壁はしっかり堅い", "completion":"kdn:scene_x a kgc:situation ; kgc:adjunct kdn:tightly ; kgc:hasProperty kdp:hard ; kgc:subject kdn:four_walls_of_bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンはジュリアの部屋の床もつぶさに調べた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:how kdn:specifically ; kgc:subject kdn:Helen ; kgc:what kdn:floor_of_bedroom_of_Julia ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋の床はしっかり堅い", "completion":"kdn:scene_x a kgc:situation ; kgc:adjunct kdn:tightly ; kgc:hasProperty kdp:hard ; kgc:subject kdn:floor_of_bedroom_of_Julia ."
+    },
+
+    {
+        "prompt":"ジュリアの部屋の煙突は太い", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:thick ; kgc:subject kdn:chimney_of_bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋の煙突の内部に釘が四本も横に通してある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:how kdn:horizontally ; kgc:subject kdn:four_nails ; kgc:where kdn:chimney_of_bedroom_of_Julia ."
+    },
+    {
+        "prompt":"事件当夜，ジュリアは部屋にひとりだった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:how kdn:alone ; kgc:subject kdn:Julia ; kgc:when kdn:death_day_of_Julia ; kgc:where kdn:bedroom ."
+    },
+    {
+        "prompt":"ジュリアの体には傷痕がない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notHave ; kgc:subject kdn:Julia ; kgc:what kdn:scar ; kgc:where kdn:body_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの体から毒は見つからなかった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notFind ; kgc:subject kdn:man ; kgc:what kdn:poison ; kgc:where kdn:body_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンはジュリアが激しい恐怖で死んだと思っている（ヘレン想像）", "completion":"kdn:scene_x a kgc:Thought ; kgc:hasPredicate kdp:die ; kgc:infoSource kdn:Helen ; kgc:subject kdn:Julia ; kgc:why kdn:intense_fear ."
+    },
+    {
+        "prompt":"事件当夜，ロマは敷地の中にいた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:Roma ; kgc:when kdn:death_day_of_Julia ; kgc:where kdn:premise ."
+    },
+    {
+        "prompt":"多くのロマは頭に水玉の模様があるハンカチーフを巻いている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Roma ; kgc:what kdn:handkerchief_with_pattern_of_polka_dots ."
+    },
+    {
+        "prompt":"多くのロマは頭に水玉の模様があるハンカチーフを巻いている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Roma ; kgc:what kdn:handkerchief_with_pattern_of_polka_dots ."
+    },
+    {
+        "prompt":"一ヶ月前，パーシィ・アーミティッジはヘレンに結婚を申し込んだ", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:give ; kgc:subject kdn:Percy_Armitage ; kgc:what kdn:marriage ; kgc:when kdn:one_month_ago ; kgc:whom kdn:Helen ."
+    },
+
+    {
+        "prompt":"パーシィ・アーミティッジはクレイン・ウォータに住んでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:live ; kgc:subject kdn:Percy_Armitage ; kgc:where kdn:Crane_Water ."
+    },
+    {
+        "prompt":"ヘレンとパーシィ・アーミティッジは春のうちに式を挙げる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getMarried ; kgc:subject kdn:Helen ; kgc:subject kdn:Percy_Armitage ; kgc:when kdn:spring ."
+    },
+    {
+        "prompt":"ロイロット博士はヘレンとパーシィ・アーミティッジの結婚に反対しない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notOppose ; kgc:subject kdn:Roylott ; kgc:what kdn:marriage between Helen and Persie Armitage ."
+    },
+    {
+        "prompt":"昨日から屋敷で西棟の修理が始まった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:beRepaired ; kgc:subject kdn:west_building_of_mansion ; kgc:when kdn:since_yesterday ."
+    },
+    {
+        "prompt":"ヘレンの寝室の壁に穴が空いた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beBroken ; kgc:subject kdn:wall_of_bedroom_of_Helen ."
+    },
+    {
+        "prompt":"そのため、ヘレンはジュリアの部屋へ移った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:come ; kgc:subject kdn:Helen ; kgc:to kdn:bedroom_of_Julia ; kgc:why kdn:Therefore ."
+    },
+    {
+        "prompt":"ヘレンは昨夜恐ろしくてふるえた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beScared ; kgc:subject kdn:Helen ; kgc:when kdn:last_night ."
+    },
+    {
+        "prompt":"昨夜真夜中，ヘレンは低い口笛を聞いた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:hear ; kgc:subject kdn:Helen ; kgc:what kdn:low_whistle ; kgc:when kdn:last_night ."
+    },
+    {
+        "prompt":"ヘレンは飛び起きた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:wakeUp ; kgc:subject kdn:Helen ."
+    },
+    {
+        "prompt":"ヘレンはランプをつけた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:turnOn ; kgc:subject kdn:Helen ; kgc:what kdn:lamp."
+    },
+
+    {
+        "prompt":"ジュリアの部屋には何も見当たらなかった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:cannotFind ; kgc:subject kdn:Helen ; kgc:what kdn:objects ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンは着替えた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:change ; kgc:subject kdn:Helen ; kgc:what kdn:clothes ."
+    },
+    {
+        "prompt":"ヘレンは夜明けに家を抜け出した", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:house ; kgc:hasPredicate kdp:goOut ; kgc:subject kdn:Helen ; kgc:when kdn:early_morning ."
+    },
+    {
+        "prompt":"ヘレンはクラウン・インで二輪馬車を頼んだ", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:ask ; kgc:subject kdn:Helen ; kgc:what kdn:two-wheeled_coach ; kgc:where kdn:Crown_Inn ."
+    },
+    {
+        "prompt":"クラウン・インは旅館", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:subject kdn:Crown_Inn ; kgc:what kdn:hotel ."
+    },
+    {
+        "prompt":"クラウン・インは屋敷の向かいにある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:where kdn:opposite_of_mansion ; kgc:subject kdn:Crown_Inn ."
+    },
+    {
+        "prompt":"ヘレンはレザヘッド駅へ駆けつけた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Helen ; kgc:to kdn:Leatherhead_station ."
+    },
+    {
+        "prompt":"ヘレンは今朝、ホームズのもとへ参る", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:come ; kgc:subject kdn:Helen ; kgc:to kdn:Holmes ; kgc:when kdn:this_morning ."
+    },
+    {
+        "prompt":"ヘレンの手首には5本指でつけた青痣が残されていた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:Helen ; kgc:what kdn:bruise_of_fingers_of_Roylott ; kgc:where kdn:wrist_of_Helen ."
+    },
+    {
+        "prompt":"ロイロット博士はすぐに手の出る人", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getAnger ; kgc:subject kdn:Roylott ."
+    },
+
+    {
+        "prompt":"ホームズは今日ストーク・モランへ出向くことをヘレンに提案した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:propose ; kgc:subject kdn:Holmes ; kgc:what kdn:going to Stoke Moran ; kgc:whom kdn:Helen ; kgc:when kdn:today ."
+    },
+    {
+        "prompt":"ホームズとワトソンは今日の昼過ぎにストーク・モランへ出向く", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Holmes ; kgc:subject kdn:Watson ; kgc:when kdn:this_afternoon ; kgc:where kdn:Stoke_Moran ."
+    },
+    {
+        "prompt":"ロイロット博士は今日ロンドンへ出る（ヘレン主張）", "completion":"kdn:scene_x a kgc:Statement ; kgc:hasPredicate kdp:go ; kgc:infoSource kdn:Helen ; kgc:subject kdn:Roylott ; kgc:to kdn:London ; kgc:when kdn:today ."
+    },
+    {
+        "prompt":"ロイロット博士は今日の日中は留守にしている（ヘレン主張）", "completion":"kdn:scene_x a kgc:Statement ; kgc:hasPredicate kdp:notExist ; kgc:infoSource kdn:Helen ; kgc:subject kdn:Roylott ; kgc:when kdn:today ; kgc:where kdn:mansion ."
+    },
+    {
+        "prompt":"ヘレンはホームズの提案を承諾した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:accept ; kgc:subject kdn:Helen ; kgc:what kdn:Holmes's proposal ."
+    },
+    {
+        "prompt":"ヘレンは退室した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:leave ; kgc:subject kdn:Helen ; kgc:what kdn:house ."
+    },
+    {
+        "prompt":"ロイロット博士はホームズのもとへ訪ねて来た", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:come ; kgc:subject kdn:Roylott ; kgc:to kdn:house_of_Holmes ."
+    },
+    {
+        "prompt":"ロイロット博士はヘレンをつけてきた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:trace ; kgc:subject kdn:Roylott ; kgc:whom kdn:Helen ."
+    },
+    {
+        "prompt":"ロイロット博士はヘレンの話した内容をホームズに聞いた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:query ; kgc:subject kdn:Roylott ; kgc:what kdn:story_of_Helen ; kgc:whom kdn:Holmes ."
+    },
+    {
+        "prompt":"ホームズはロイロット博士の質問をはぐらかした", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notAnswer ; kgc:subject kdn:Holmes ; kgc:what kdn:question_of_Roylott ; kgc:whom kdn:Roylott ."
+    },
+
+    {
+        "prompt":"ロイロット博士は部屋から出ていった", "completion":"kdn:scene_x a kgc:situation ; kgc:from kdn:house ; kgc:hasPredicate kdp:goOut ; kgc:subject kdn:Roylott ."
+    },
+    {
+        "prompt":"ホームズはヘレンの母の遺言状を見てきた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:subject kdn:Holmes ; kgc:what kdn:will_of_mother_of_Helen ."
+    },
+    {
+        "prompt":"ホームズは関係する投下資本の現在価格を計算した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:calculate ; kgc:subject kdn:Holmes ; kgc:what kdn:price_of_invested_capital_involved ."
+    },
+    {
+        "prompt":"関係する投下資本の現在価格は、ヘレンの母が死んだ当時、年収で1100ポンド弱あった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:how kdn:every_year ; kgc:subject kdn:price_of_invested_capital_involved ; kgc:what kdn:1100_GBP ; kgc:when kdn:death_day_of_mother_of_Helen ."
+    },
+    {
+        "prompt":"関係する投下資本の現在価格は、今は農産物の価格下落のせいで、せいぜい750ポンドである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:subject kdn:price_of_invested_capital_involved ; kgc:what kdn:750_GBP ; kgc:when kdn:now ; kgc:why kdn:by_falling_price_of_agricultural_products ."
+    },
+    {
+        "prompt":"ヘレンとジュリアは結婚すると１人につき年収250ポンドずつ受け取れる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:canReceive ; kgc:how kdn:every_year ; kgc:subject kdn:Helen ; kgc:subject kdn:Julia ; kgc:what kdn:250_GBP ; kgc:when kdn:if_get_married ."
+    },
+    {
+        "prompt":"もしヘレンとジュリアが嫁ぐと、ロイロット博士のうま味が少しだけになる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:lose ; kgc:subject kdn:Roylott ; kgc:what kdn:money ; kgc:when kdn:if_Helen_and_Julia_married ."
+    },
+    {
+        "prompt":"もしヘレンとジュリアが嫁ぐと", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getMarried ; kgc:subject kdn:Helen ; kgc:subject kdn:Julia ."
+    },
+    {
+        "prompt":"ロイロット博士には娘を殺す動機がある（ホームズ想像）", "completion":"kdn:scene_x a kgc:Thought ; kgc:hasPredicate kdp:have ; kgc:infoSource kdn:Holmes ; kgc:subject kdn:Roylott ; kgc:what kdn:motivation_of_murder_of_dauter ."
+    },
+    {
+        "prompt":"ホームズとワトソンは馬車を降りた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:getOff ; kgc:subject kdn:Holmes ; kgc:subject kdn:Watson ; kgc:what kdn:coach ."
+    },
+
+    {
+        "prompt":"馬車はレザヘッドへ引き返した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:coach ; kgc:to kdn:Leatherhead_station ."
+    },
+    {
+        "prompt":"ホームズはヘレンに約束通り会った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:meet ; kgc:subject kdn:Holmes ; kgc:whom kdn:Helen ."
+    },
+    {
+        "prompt":"ロイロット博士はロンドンへ出た", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Roylott ; kgc:to kdn:London ."
+    },
+    {
+        "prompt":"ロイロット博士は夕方まで帰ってこない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notCome ; kgc:subject kdn:Roylott ; kgc:when kdn:until_the_evening ."
+    },
+    {
+        "prompt":"ホームズはそれをヘレンに説明した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:talk ; kgc:subject kdn:Holmes ; kgc:whom kdn:Helen ."
+    },
+    {
+        "prompt":"ヘレンは真っ青になった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beScared ; kgc:subject kdn:Helen ."
+    },
+    {
+        "prompt":"屋敷は苔むした石造りである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:madeByMossyStone ; kgc:subject kdn:mansion ."
+    },
+    {
+        "prompt":"屋敷の地は灰色", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:gray ; kgc:subject kdn:mansion ."
+    },
+    {
+        "prompt":"屋敷の中央部の他に左右に棟がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:mansion ; kgc:what kdn:left_building ; kgc:what kdn:right_building ."
+    },
+    {
+        "prompt":"左側の棟の窓の破れたところに板が打ち付けてある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:beStruck ; kgc:subject kdn:plate ; kgc:where kdn:window_of_left_building ."
+    },
+
+    {
+        "prompt":"左側の棟の屋根がへこんでいる", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:broken ; kgc:subject kdn:roof_of_left_building ."
+    },
+    {
+        "prompt":"左側の棟は廃墟の体", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:ruined ; kgc:subject kdn:left_building ."
+    },
+    {
+        "prompt":"屋敷の中央部は手入れ不足", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:broken ; kgc:subject kdn:central_part_of_mansion ."
+    },
+    {
+        "prompt":"右側の棟は新しい", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:new ; kgc:subject kdn:right_building ."
+    },
+    {
+        "prompt":"右側の棟は居住区", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:equalTo ; kgc:subject kdn:right_building ; kgc:what kdn:residential_area ."
+    },
+    {
+        "prompt":"右側の棟の外れに足場が組んである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:scaffold ; kgc:where kdn:right_building ."
+    },
+    {
+        "prompt":"右側の棟の石の壁が崩れている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:broken ; kgc:subject kdn:wall_of_right_building ."
+    },
+    {
+        "prompt":"職人がいない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:notExist ; kgc:subject kdn:craftsman ."
+    },
+    {
+        "prompt":"ホームズは芝地を歩き回った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:walk ; kgc:subject kdn:Holmes ; kgc:where kdn:garden ."
+    },
+    {
+        "prompt":"芝地は手入れが行き届いていない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:broken ; kgc:subject kdn:garden ."
+    },
+
+    {
+        "prompt":"ホームズは屋敷の窓を外側から調べた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:subject kdn:Holmes ; kgc:what kdn:window_of_mansion ; kgc:where kdn:garden ."
+    },
+    {
+        "prompt":"ヘレンの部屋は端にある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:bedroom_of_Helen ; kgc:where kdn:edge ."
+    },
+    {
+        "prompt":"真ん中の部屋はジュリアの部屋である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:bedroom_of_Julia ; kgc:where kdn:middle ."
+    },
+    {
+        "prompt":"母屋に一番近い部屋はロイロット博士の部屋である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:bedroom_of_Roylott ; kgc:where kdn:closest_to_main_mansion ."
+    },
+    {
+        "prompt":"ヘレンは今は真ん中の部屋で寝ている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:sleep ; kgc:subject kdn:Helen ; kgc:when kdn:these_days ; kgc:where kdn:middle_bedroom ."
+    },
+    {
+        "prompt":"ヘレンの部屋の壁は改修中である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:broken ; kgc:subject kdn:wall_of_bedroom_of_Helen ."
+    },
+    {
+        "prompt":"ロイロット博士は口実を作った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:make ; kgc:subject kdn:Roylott ; kgc:what kdn:excuse ."
+    },
+    {
+        "prompt":"ヘレンはジュリアの部屋に移動した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:go ; kgc:subject kdn:Helen ; kgc:to kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"右側の棟の反対側に廊下がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:corridor ; kgc:where kdn:opposite_of_right_building ."
+    },
+    {
+        "prompt":"ヘレンの部屋は廊下に面している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:face ; kgc:subject kdn:bedroom_of_Helen ; kgc:to kdn:corridor ."
+    },
+
+    {
+        "prompt":"ジュリアの部屋は廊下に面している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:face ; kgc:subject kdn:bedroom_of_Julia ; kgc:to kdn:corridor ."
+    },
+    {
+        "prompt":"ロイロット博士の部屋は廊下に面している", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:face ; kgc:subject kdn:bedroom_of_Roylott ; kgc:to kdn:corridor ."
+    },
+    {
+        "prompt":"ヘレンの部屋には廊下に向いた窓がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:window_facing_corridor ; kgc:where kdn:bedroom_of_Helen ."
+    },
+    {
+        "prompt":"ジュリアの部屋には廊下に向いた窓がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:window_facing_corridor ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ロイロット博士の部屋には廊下に向いた窓がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:window_facing_corridor ; kgc:where kdn:bedroom_of_Roylott ."
+    },
+    {
+        "prompt":"ヘレンがジュリアの部屋に入った", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:enter ; kgc:subject kdn:Helen ; kgc:where kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ヘレンがは鎧戸を閉めた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:close ; kgc:subject kdn:Helen ; kgc:what kdn:shutter ."
+    },
+    {
+        "prompt":"ヘレンは部屋の鍵をかけた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:lock ; kgc:subject kdn:Helen ; kgc:what kdn:bedroom ."
+    },
+    {
+        "prompt":"ホームズは空いた窓を念入りに調べた", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:investigate ; kgc:how kdn:carefully ; kgc:subject kdn:Holmes ; kgc:what kdn:vacant_window ."
+    },
+    {
+        "prompt":"ホームズは外から鎧戸を無理にこじ開けることに失敗した", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:cannotOpen ; kgc:subject kdn:Holmes ; kgc:what kdn:shutter ."
+    },
+
+    {
+        "prompt":"鎧戸の蝶番は頑丈な鉄製である", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:madeByIron ; kgc:subject kdn:hinges_of_shutter ."
+    },
+    {
+        "prompt":"鎧戸の蝶番は堅い石壁に埋め込んである", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:exist ; kgc:subject kdn:hinges_of_shutter ; kgc:where kdn:stone_wall ."
+    },
+    {
+        "prompt":"鎧戸に閂がかかっている", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:shutter ; kgc:what kdn:bolt ."
+    },
+    {
+        "prompt":"誰も鎧戸を通れない", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:cannotOpen ; kgc:subject kdn:man ; kgc:what kdn:shutter ."
+    },
+    {
+        "prompt":"ホームズはジュリアの部屋に向かった", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:come ; kgc:subject kdn:Holmes ; kgc:to kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋は質素な小さい部屋", "completion":"kdn:scene_x a kgc:situation ; kgc:hasProperty kdp:simple ; kgc:hasProperty kdp:small ; kgc:subject kdn:bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋は低い天井", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:bedroom_of_Julia ; kgc:what kdn:low_celling ."
+    },
+    {
+        "prompt":"ジュリアの部屋には暖炉がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:bedroom_of_Julia ; kgc:what kdn:fireplace ."
+    },
+    {
+        "prompt":"ジュリアの部屋の隅には茶色の箪笥がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:bedroom_of_Julia ; kgc:what kdn:brown_chest ; kgc:whaere kdn:corner_of_bedroom_of_Julia ."
+    },
+    {
+        "prompt":"ジュリアの部屋の隅には寝台がある", "completion":"kdn:scene_x a kgc:situation ; kgc:hasPredicate kdp:have ; kgc:subject kdn:bedroom_of_Julia ; kgc:what kdn:bed ; kgc:whaere kdn:corner_of_bedroom_of_Julia ."
+    }
+]
